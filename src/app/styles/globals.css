@@ -9,14 +9,14 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    /* --background: #0a0a0a; */
+    /* --foreground: #ededed; */
   }
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
+  /* color: var(--foreground); */
+  background: #fbfbfb;
   font-family: var(--font-primary);
 }
 
@@ -27,6 +27,26 @@ h4,
 h5,
 h6 {
   font-family: var(--font-heading);
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 85px;
+}
+h2 {
+  font-size: 50px;
+}
+h3 {
+  font-size: 47px;
+}
+h4 {
+  font-size: 42px;
+}
+h5 {
+  font-size: 32px;
+}
+h6 {
+  font-size: 14px;
 }
 
 @layer utilities {

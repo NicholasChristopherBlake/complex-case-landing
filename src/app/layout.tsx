@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./styles/globals.css";
 
 import { Montserrat, Oswald, Bellota_Text } from "next/font/google";
+// import { Navbar } from "@/components/Navbar/Navbar";
 
 const oswald = Oswald({
   weight: ["500"],

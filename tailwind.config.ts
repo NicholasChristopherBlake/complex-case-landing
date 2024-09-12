@@ -8,6 +8,14 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontSize: {
+        p1: "24px",
+        p2: "20px",
+        p3: "18px",
+        p4: "16px",
+        p5: "14px",
+        p6: "12px",
+      },
       backgroundImage: {
         "blue-gradient":
           "radial-gradient(circle, rgba(6,5,52,1) 0%, rgba(1,1,10,1) 100%);",
@@ -18,11 +26,11 @@ const config: Config = {
         "primary-gray": "#717171",
         "primary-light-gray": "#999EAA",
         "bg-gray": "#404137",
-        "bg-light-gray": "#9E9E9E",
-        "accent-green": "#CAFE00",
-        "accent-purple": "#605FE0",
+        "bg-disabled": "#9E9E9E",
+        accent1: "#CAFE00",
+        accent2: "#605FE0",
+        accent3: "#64CDFF",
         "accent-red": "#BD0600",
-        "accent-blue": "#64CDFF",
         "warning-red": "#7A1502",
         "warning-light": "#FDE7E3",
       },
