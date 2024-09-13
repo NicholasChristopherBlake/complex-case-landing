@@ -10,7 +10,7 @@ import { DropdownMenu } from "./DropdownMenu";
 export const Navbar = () => {
   const [isDropdownOpen, setDropdownOpen] = useState(false);
   return (
-    <header className="max-w-screen-xl mx-auto top-0 left-0 right-0 w-full flex items-center justify-between bg-transparent z-50">
+    <header className="max-w-screen-xl mx-auto top-0 left-0 right-0 w-full flex items-center justify-between">
       <div className="flex items-center">
         <Link href="/" aria-label="Главная">
           <Logo />

@@ -16,15 +16,21 @@ const config: Config = {
         p5: "14px",
         p6: "12px",
       },
+      mixBlendMode: {
+        luminosity: "luminosity",
+      },
       backgroundImage: {
-        "blue-gradient":
-          "radial-gradient(circle, rgba(6,5,52,1) 0%, rgba(1,1,10,1) 100%);",
+        "blue-gradient-svg": "url('/backgrounds/home-page-blue.svg')",
+        "green-svg": "url('/backgrounds/home-page-green.svg')",
+        "carousel-bottom-svg": "url('/backgrounds/carousel-card-bottom.svg')",
+        "carousel-top-svg": "url('/backgrounds/carousel-card-top.svg')",
       },
       colors: {
         "primary-black": "#0C0E00",
         "primary-white": "#FBFBFB",
         "primary-gray": "#717171",
         "primary-light-gray": "#999EAA",
+        "footer-gray": "#EFF3FF",
         "bg-gray": "#404137",
         "bg-disabled": "#9E9E9E",
         accent1: "#CAFE00",

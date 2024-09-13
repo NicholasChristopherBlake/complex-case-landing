@@ -13,7 +13,7 @@ const oswald = Oswald({
 
 const montserrat = Montserrat({
   style: "normal",
-  subsets: ["cyrillic"],
+  subsets: ["cyrillic", "latin"],
   display: "swap",
   variable: "--font-primary",
 });
